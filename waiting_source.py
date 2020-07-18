@@ -27,7 +27,8 @@ def get_waiting_time_info(average_interval, start_time):
     observed_interval,
     proportion_elapsed,
     ratio_elapsed_waiting,
-    difference_elapsed_waiting
+    difference_elapsed_waiting,
+    arrival_index
   ]
 
   return waiting_time_info
@@ -43,7 +44,8 @@ def get_waiting_time_info_table(average_interval, start_time, n_trials):
     "observed_interval",
     "proportion_elapsed",
     "ratio_elapsed_waiting",
-    "difference_elapsed_waiting"
+    "difference_elapsed_waiting",
+    "arrival_index"
   ]
 
   waiting_time_info_table = pd.DataFrame(

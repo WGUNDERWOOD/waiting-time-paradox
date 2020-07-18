@@ -1,1 +1,8 @@
 __pycache__
+*.aux
+*.fdb_latexmk
+auto
+*.fls
+*.log
+*.pdf
+*.png
