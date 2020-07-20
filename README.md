@@ -9,7 +9,7 @@ on the waiting time paradox.
 * The simulations require Python and can be run with
 
 ```
-python3 waiting_source.py
+python3 waiting_script.py
 ```
 
 * The graphic requires LaTeX, TikZ and Imagemagick.
